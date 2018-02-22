@@ -1,4 +1,4 @@
-# python bindings for HaveIBeenPwnd.com V2
+# python bindings for HaveIBeenPwnd.com V2 [![Build Status](https://img.shields.io/travis/figo-connect/python-figo.svg?style=flat-square)](https://travis-ci.org/figo-connect/python-figo) [![PyPi Version](http://img.shields.io/pypi/v/haveibeenpwnd.svg?style=flat-square)](https://pypi.python.org/pypi/haveibeenpwnd)
 
 Troy Hunt released a new version of the `Have I Been pwnd Database`. This time with more anonymity
 in mind.
