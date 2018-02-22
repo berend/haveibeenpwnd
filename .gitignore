@@ -1,0 +1,13 @@
+.tox
+.idea
+.eggs
+test-results.xml
+htmlcov
+*.egg-info/
+.coverage
+.pytest_cache
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
