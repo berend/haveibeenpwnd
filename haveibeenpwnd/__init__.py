@@ -1,3 +1,3 @@
-from haveibeenpwnd.main import HIBP
+from haveibeenpwnd.main import check_password
 
-__all__ = [HIBP]
+__all__ = [check_password]
