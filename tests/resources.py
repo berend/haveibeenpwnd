@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 no_match_response = ""
 
 # this is the response for the password "hunter2", hashed with sha1 and the first 5 chars sent
@@ -486,3 +487,50 @@ FD9EBCCB6F417CF63FE22150CBE642CF7FA:1
 FEA988F5F6DFCBA93BD9D9C1A79D74C1DB6:1
 FF680074F43283CDF6A7A317134E71B508B:1
 """
+
+breaches = [
+  {
+    "Title": "000webhost",
+    "Name": "000webhost",
+    "Domain": "000webhost.com",
+    "BreachDate": "2015-03-01",
+    "AddedDate": "2015-10-26T23:35:45Z",
+    "ModifiedDate": "2017-12-10T21:44:27Z",
+    "PwnCount": 14936670,
+    "Description": "Looooooong text",
+    "DataClasses": [
+      "Email addresses",
+      "IP addresses",
+      "Names",
+      "Passwords"
+    ],
+    "IsVerified": True,
+    "IsFabricated": False,
+    "IsSensitive": False,
+    "IsActive": True,
+    "IsRetired": False,
+    "IsSpamList": False,
+    "LogoType": "png"
+  },
+  {
+    "Title": "8tracks",
+    "Name": "8tracks",
+    "Domain": "8tracks.com",
+    "BreachDate": "2017-06-27",
+    "AddedDate": "2018-02-16T07:09:30Z",
+    "ModifiedDate": "2018-02-16T07:09:30Z",
+    "PwnCount": 7990619,
+    "Description": "Looooooong text",
+    "DataClasses": [
+      "Email addresses",
+      "Passwords"
+    ],
+    "IsVerified": True,
+    "IsFabricated": False,
+    "IsSensitive": False,
+    "IsActive": True,
+    "IsRetired": False,
+    "IsSpamList": False,
+    "LogoType": "png"
+  }
+]
