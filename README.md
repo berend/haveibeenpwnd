@@ -1,4 +1,4 @@
-# python bindings for HaveIBeenPwnd.com V2 [![Build Status](https://img.shields.io/travis/figo-connect/python-figo.svg?style=flat-square)](https://travis-ci.org/figo-connect/python-figo) [![PyPi Version](http://img.shields.io/pypi/v/haveibeenpwnd.svg?style=flat-square)](https://pypi.python.org/pypi/haveibeenpwnd)
+# python bindings for HaveIBeenPwnd.com V2 [![Build Status](https://img.shields.io/travis/figo-connect/python-figo.svg?style=flat-square)](https://travis-ci.org/figo-connect/python-figo) [![PyPi Version](http://img.shields.io/pypi/v/haveibeenpwnd.svg?style=flat-square)](https://pypi.python.org/pypi/haveibeenpwnd)![Python versions](https://img.shields.io/pypi/pyversions/haveibeenpwnd.svg)
 
 Troy Hunt released a new version of the `Have I Been pwnd Database`. This time with more anonymity
 in mind.
@@ -15,7 +15,7 @@ in mind.
 
 You can use HaveIBeenPwnd als command line script or use it as module in other python code.
 
-###As command line script
+### As command line script
 
 Install HaveIBeenPwnd gobally or in a virtual environment:
 
@@ -40,7 +40,7 @@ To check if a mail has been part of a breach, do this:
     ...
 
 
-###As module
+### As module
 
 Check emails:
 
