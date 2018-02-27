@@ -1,6 +1,19 @@
 CHANGES
 =======
 
+0.2.0
+-----
+
+* small fixes on readme + version bump
+* better readme, check emails, entry points
+* start on password check and CLI usage/entry points
+* tox.ini
+* better tox.ini
+* added badges
+* enhance readme, reorder packages
+* fix tox.ini
+* connecting travis-ci
+
 0.1
 ---
 
