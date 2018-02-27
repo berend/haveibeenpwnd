@@ -7,8 +7,10 @@ in mind.
 Features:
 ---------
 
-* does not sent passwords to HaveIBeenPwnd.com
-* does not sent complete password hashes to HaveIBeenPwnd.com
+* check if an email was part of a breach
+* check if a password is known from a breach against HaveIBeenPwnd.com
+    * does not sent passwords to HaveIBeenPwnd.com
+    * does not sent complete password hashes to HaveIBeenPwnd.com
 * zero dependencies except requests (will be removed later)
 * python2 & python3 support
 * tests
@@ -23,10 +25,14 @@ As command line script
 
 Install HaveIBeenPwnd gobally or in a virtual environment:
 
+.. code-block:: bash
+
     $ pip install haveibeenpwnd
 
 This add shortcuts to haveibeenpwnd, so that you call haveibeenpwnd from everywhere. To check a
 password, simply do this:
+
+.. code-block:: bash
 
     $ haveibeenpwnd --password hunter2
     The password was found 16092 times in the haveibeenpwned.com database.
@@ -36,6 +42,7 @@ chars of the SHA1 Hash.
 
 To check if a mail has been part of a breach, do this:
 
+.. code-block:: bash
 
     $ haveibeenpwnd -m test@example.com
     The email <test@example.com> was found in following breaches:
@@ -49,12 +56,16 @@ As module
 
 Check emails:
 
+.. code-block:: python
+
     >>> from haveibeenpwnd import check_email
     >>> check_email("test@example.com"))
     >>> check_email("test@example.com")
     {'breaches': [{'Title': '000webhost', ...}]}
 
 and check passwords:
+
+.. code-block:: python
 
     >>> from haveibeenpwnd import check_password
     >>> check_password('hunter2')
@@ -67,6 +78,8 @@ Installation
 
 You can install haveibeenpwnd with pip:
 
+.. code-block:: bash
+
     $ pip install haveibeenpwnd
 
 
@@ -74,6 +87,8 @@ Testing:
 --------
 
 You can run tests with:
+
+.. code-block:: bash
 
     $ tox
 
